@@ -5,7 +5,7 @@ const ButtonNavBar = (props) => {
   return (
     <>
       <button
-        class="bg-gray-900 hover:bg-gray-700 text-white font-bold py-5 px-16 rounded-full mx-10 my-5"
+        className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-5 px-16 rounded-full mx-10 my-5"
         onClick={() => router.push(`${props.route}`)}
       >
         {props.name}
